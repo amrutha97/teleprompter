@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Swift / local build output
+teleprompter
+*.o
+*.swiftmodule
+*.swiftdoc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+*.log
+npm-debug.log*
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temp build dirs
+_video/
+
+# Xcode (if you add a project later)
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcscmblueprint
