@@ -28,8 +28,6 @@
   </video>
 </p>
 
-> **Note:** If the video does not play in your browser, open the [demo MP4](https://raw.githubusercontent.com/amrutha97/teleprompter/main/assets/demo.mp4) directly, or scroll down for a still preview.
-
 <br />
 
 ---
