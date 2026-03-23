@@ -3,6 +3,9 @@ node_modules/
 
 # Swift / local build output
 teleprompter
+Teleprompter.app/
+AppIcon.iconset/
+AppIcon.icns
 *.o
 *.swiftmodule
 *.swiftdoc
@@ -28,8 +31,10 @@ npm-debug.log*
 *.swo
 *~
 
-# Temp build dirs
+# Temp build / dev dirs
 _video/
+.venv*/
+preview-readme.html
 
 # Xcode (if you add a project later)
 DerivedData/

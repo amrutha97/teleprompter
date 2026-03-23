@@ -23,9 +23,7 @@
 <br />
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/amrutha97/teleprompter/main/assets/demo.mp4" width="760" autoplay loop muted playsinline>
-    <img src="assets/mockup.png" alt="Teleprompter overlay on a video call" width="760" />
-  </video>
+  <img src="assets/demo.gif" alt="Teleprompter demo" width="760" />
 </p>
 
 <br />
