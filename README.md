@@ -44,11 +44,11 @@ No accounts, no internet, no installation wizards.
 
 **[Download Teleprompter.dmg](https://github.com/amrutha97/teleprompter/releases/latest/download/Teleprompter.dmg)** — open the DMG, drag to Applications, done.
 
-> **First launch:** right-click the app and choose **Open**, then click **Open** in the dialog. If you see "damaged and can't be opened", run this in Terminal:
+> **Important:** macOS blocks apps downloaded from the internet that aren't notarized. After downloading, open Terminal and run:
 > ```
-> xattr -cr /Applications/Teleprompter.app
+> xattr -cr ~/Downloads/Teleprompter.dmg
 > ```
-> This removes the macOS quarantine flag. Only needed once.
+> Then open the DMG and drag to Applications. This only needs to be done once.
 
 ## Build from Source
 
