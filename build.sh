@@ -36,6 +36,9 @@ cp AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
 
 rm -f "$BINARY" AppIcon.icns
 
+echo "==> Signing (ad-hoc)..."
+codesign --force --deep -s - "$APP"
+
 echo ""
 echo "Done! $APP is ready."
 echo ""
