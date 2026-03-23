@@ -38,11 +38,17 @@ A transparent, always-on-top overlay that lets you read your notes while looking
 
 Write your talking points in Markdown, adjust the opacity so your video call shows through, and hit Scroll for hands-free teleprompter mode. Your notes, window position, and preferences are saved automatically between sessions.
 
-No accounts, no internet, no installation wizards. One file, one command.
+No accounts, no internet, no installation wizards.
 
-## Getting Started
+## Install
 
-You need a Mac with Xcode Command Line Tools installed:
+**[Download Teleprompter.dmg](https://github.com/amrutha97/teleprompter/releases/latest/download/Teleprompter.dmg)** — open the DMG, drag to Applications, done.
+
+> First launch: right-click the app and choose **Open**, then click **Open** in the dialog. This is only needed once because the app isn't signed with an Apple Developer certificate.
+
+## Build from Source
+
+If you prefer to build it yourself, you need Xcode Command Line Tools:
 
 ```bash
 xcode-select --install
@@ -51,14 +57,14 @@ xcode-select --install
 Then build and run:
 
 ```bash
-swiftc -O -framework Cocoa -o teleprompter teleprompter.swift
-./teleprompter
+./build.sh
+open Teleprompter.app
 ```
 
-Or use the included script:
+To install to Applications:
 
 ```bash
-./run.sh
+cp -r Teleprompter.app /Applications/
 ```
 
 The overlay appears immediately, pinned above all windows, with a **T** icon in your menu bar.
