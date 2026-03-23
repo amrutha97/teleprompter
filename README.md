@@ -16,21 +16,25 @@
   <img src="https://img.shields.io/badge/PRs-welcome-orange.svg" alt="PRs Welcome" />
 </p>
 
+<br />
+
 ---
 
+<br />
+
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/demo.mp4" width="760" autoplay loop muted playsinline>
+  <video src="https://raw.githubusercontent.com/amrutha97/teleprompter/main/assets/demo.mp4" width="760" autoplay loop muted playsinline>
     <img src="assets/mockup.png" alt="Teleprompter overlay on a video call" width="760" />
   </video>
 </p>
 
-https://github.com/user-attachments/assets/demo.mp4
+> **Note:** If the video does not play in your browser, open the [demo MP4](https://raw.githubusercontent.com/amrutha97/teleprompter/main/assets/demo.mp4) directly, or scroll down for a still preview.
 
-> **Note:** If the video doesn't play above, see the [demo video](assets/demo.mp4) or the [static mockup](assets/mockup.png) below.
+<br />
 
-<p align="center">
-  <img src="assets/mockup.png" alt="Teleprompter overlay on a video call" width="760" />
-</p>
+---
+
+<br />
 
 ## What is Teleprompter?
 
@@ -103,6 +107,20 @@ Teleprompter makes zero network requests. Your notes are stored locally in `~/Li
 
 - macOS 12+ (Monterey or later)
 - Swift 5.7+ (included with Xcode Command Line Tools)
+
+<br />
+
+---
+
+<br />
+
+<p align="center">
+  <img src="assets/mockup.png" alt="Teleprompter overlay on a video call" width="760" />
+</p>
+
+<br />
+
+---
 
 ## License
 
